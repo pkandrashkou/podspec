@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source              = { http: 'https://github.com/pkondrashkov/podspec/blob/master/face-sdk/0.0.1.zip?raw=true' }
   s.module_name         = 'FaceSDK'
   s.vendored_frameworks = 'FaceSDK.framework'
-  s.dependency = 'RegulaCommon'
+  s.dependency 'RegulaCommon'
 end
