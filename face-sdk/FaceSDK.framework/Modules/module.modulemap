@@ -1,0 +1,11 @@
+framework module FaceSDK {
+    umbrella header "FaceSDK.h"
+
+    export *
+    module * { export * }
+
+    explicit module Private {
+        header "RFSFaceSDKErrors.h"
+        export *
+    }
+}
