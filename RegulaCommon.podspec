@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.authors             = { 'RegulaForensics' => 'support@regulaforensics.com' }
   s.summary           = 'This is a private cocoapods wrapper intended only for INTERNAL usage!'
   s.platform             = :ios, '9.0'
-  s.source              = { http: 'http://192.168.100.73:8000/regula-common/0.0.1.zip' }
+  s.source              = { http: 'https://github.com/pkondrashkov/podspec/blob/master/regula-common/0.0.1.zip' }
   s.module_name         = 'RegulaCommon'
   s.vendored_frameworks = 'RegulaCommon.framework'
 end
